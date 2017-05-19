@@ -10,4 +10,7 @@ public interface FollowService {
     String followSomeone(String follower, String followee);
 
     List<String> getFollowee(String follower);
+
+
+    List<String> getFollower(String leader);
 }
